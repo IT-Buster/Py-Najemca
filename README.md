@@ -1,2 +1,2 @@
 # Py-Najemca
-Aplikacja do obsługi lokatorów
+Aplikacja do obsługi najemców lokali
