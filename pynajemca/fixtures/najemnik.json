@@ -1,0 +1,228 @@
+[
+{
+    "model": "najemnik.lokator",
+    "pk": 1,
+    "fields": {
+        "nazwisko": "Nowaczek",
+        "imie": "Andrew",
+        "pesel": "987987987",
+        "email": "nowczek@gmail.com"
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 2,
+    "fields": {
+        "nazwisko": "Kowalski",
+        "imie": "Janek",
+        "pesel": "98797987",
+        "email": "janek@gmail.com"
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 3,
+    "fields": {
+        "nazwisko": "Pijanowski",
+        "imie": "Wojciech",
+        "pesel": "98798798665",
+        "email": "wojtek@gmail.com"
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 4,
+    "fields": {
+        "nazwisko": "Drzewiecka",
+        "imie": "Sylwia",
+        "pesel": "098098098",
+        "email": "sylwia@gmail.com"
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 5,
+    "fields": {
+        "nazwisko": "Kiepski",
+        "imie": "Ferdek",
+        "pesel": "342243332",
+        "email": ""
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 6,
+    "fields": {
+        "nazwisko": "Boczek",
+        "imie": "Arnold",
+        "pesel": "425243332",
+        "email": ""
+    }
+},
+{
+    "model": "najemnik.lokator",
+    "pk": 7,
+    "fields": {
+        "nazwisko": "PaŸdzioch",
+        "imie": "Marian",
+        "pesel": "4425243332",
+        "email": ""
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 1,
+    "fields": {
+        "numer_lokalu": 1,
+        "powierzchnia": "37.98",
+        "opis_lokalu": "Ma³y pokój od ulicy, Aneks od podwórka, ³azienka , wejœcie od korytarza"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 2,
+    "fields": {
+        "numer_lokalu": 2,
+        "powierzchnia": "37.10",
+        "opis_lokalu": "Maly pokój od ulicy, Aneks od ogródka, ³azienka, wejœcie bezpoœrednio od podwórka"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 3,
+    "fields": {
+        "numer_lokalu": 3,
+        "powierzchnia": "24.36",
+        "opis_lokalu": "Ma³a sypialnia, pokój od strony zachodniej, ³azienka"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 4,
+    "fields": {
+        "numer_lokalu": 5,
+        "powierzchnia": "27.75",
+        "opis_lokalu": "Ma³y pokój, Aneks kuchenny, ³azienka"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 5,
+    "fields": {
+        "numer_lokalu": 6,
+        "powierzchnia": "21.50",
+        "opis_lokalu": "Du¿y pokój od ulicy, ³azienka, wejœcie bezpoœrednio od ulicy"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 6,
+    "fields": {
+        "numer_lokalu": 4,
+        "powierzchnia": "41.38",
+        "opis_lokalu": "Dwa ma³e pokoje, Aneks kuchenny, ³azienka"
+    }
+},
+{
+    "model": "najemnik.lokal",
+    "pk": 7,
+    "fields": {
+        "numer_lokalu": 7,
+        "powierzchnia": "11.00",
+        "opis_lokalu": "testowe"
+    }
+},
+{
+    "model": "najemnik.umowa",
+    "pk": 1,
+    "fields": {
+        "nr_umowy": "2020/12",
+        "data_zawarcia": "2022-04-13T16:03:28.936Z",
+        "lokator": 1,
+        "lokal": 4,
+        "czynsz": "500.00",
+        "ilosc_osob": 2
+    }
+},
+{
+    "model": "najemnik.umowa",
+    "pk": 2,
+    "fields": {
+        "nr_umowy": "3",
+        "data_zawarcia": "2022-04-13T16:03:52.551Z",
+        "lokator": 2,
+        "lokal": 3,
+        "czynsz": "400.00",
+        "ilosc_osob": 2
+    }
+},
+{
+    "model": "najemnik.umowa",
+    "pk": 3,
+    "fields": {
+        "nr_umowy": "3/2012",
+        "data_zawarcia": "2022-04-13T16:04:32.522Z",
+        "lokator": 3,
+        "lokal": 5,
+        "czynsz": "600.00",
+        "ilosc_osob": 1
+    }
+},
+{
+    "model": "najemnik.umowa",
+    "pk": 4,
+    "fields": {
+        "nr_umowy": "23/BH/2020",
+        "data_zawarcia": "2022-04-13T16:05:23.942Z",
+        "lokator": 4,
+        "lokal": 6,
+        "czynsz": "800.00",
+        "ilosc_osob": 3
+    }
+},
+{
+    "model": "najemnik.licznikstan",
+    "pk": 1,
+    "fields": {
+        "lokal": 1,
+        "typ_licznika": 1,
+        "nr_licznika": "000000",
+        "stan_licznika": "12221.00",
+        "data_odczytu": "2022-04-13T15:47:24.067Z"
+    }
+},
+{
+    "model": "najemnik.licznikstan",
+    "pk": 2,
+    "fields": {
+        "lokal": 2,
+        "typ_licznika": 1,
+        "nr_licznika": "000001",
+        "stan_licznika": "123.00",
+        "data_odczytu": "2022-04-13T16:00:39.732Z"
+    }
+},
+{
+    "model": "najemnik.licznikstan",
+    "pk": 3,
+    "fields": {
+        "lokal": 3,
+        "typ_licznika": 1,
+        "nr_licznika": "0000003",
+        "stan_licznika": "122.00",
+        "data_odczytu": "2022-04-13T16:00:49.304Z"
+    }
+},
+{
+    "model": "najemnik.mediarozliczenia",
+    "pk": 1,
+    "fields": {
+        "numer_fv": "asdas",
+        "media_typ": 1,
+        "zuzycie": "23.00",
+        "data_wyst": "2022-04-14T11:58:30.001Z",
+        "do_zaplaty": "250.00",
+        "cena_jedn_np_fv": "12.00"
+    }
+}
+]
