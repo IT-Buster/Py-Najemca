@@ -3,13 +3,7 @@
 Projekt ma na celu stworzenie aplikacji do obsługi najmu.  Całkowiecie darmowy .   
 ### Instrukcja intalacji systemu .... 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-1. Numbered
-2. List
+Umieszczona w pliku readme.md w głównym katalogu projektu.
 
 ### Support or Contact
 
