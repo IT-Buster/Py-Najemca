@@ -1,7 +1,7 @@
 ## Witam w Projekcie  Py-Najemca
 
 Projekt ma na celu stworzenie aplikacji do obsługi najmu.  Całkowiecie darmowy .   
-### Instrukacja intalacji systemu 
+### Instrukcja intalacji systemu .... 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
