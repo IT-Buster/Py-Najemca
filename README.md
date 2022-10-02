@@ -1,6 +1,6 @@
 # Py-Najemca
 
-Aplikacja do obsługi najemników :)
+Aplikacja do obsługi najemników :))
 
 ```bash
 $ # Get the code
